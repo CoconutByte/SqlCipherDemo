@@ -56,6 +56,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickButton(View view) {
-        Toast.makeText(MainActivity.this, String.valueOf(getMinAgeOfPerson()), Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"The minimum age:" + String.valueOf(getMinAgeOfPerson()), Toast.LENGTH_SHORT).show();
     }
 }
